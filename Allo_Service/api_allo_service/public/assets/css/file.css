@@ -1,0 +1,54 @@
+#custom-button {
+  padding: 10px;
+  color: white;
+  background-color: #0b9cdf;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#custom-button:hover {
+  background-color: #3e71e0;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #aaa;
+}
+
+.image {display: block;
+  border-radius: 2%;
+ -webkit-border-radius: 2%;
+ width: fit-content;
+ height: fit-content;
+}
+
+/* Prefixes */
+
+.input-box {
+  display: flex;
+  align-items: center;
+  /* max-width: 300px; */
+  background: #fff;
+  border: 1px solid #a0a0a0;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.input-box .prefix {
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(117, 114, 114);
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+}
+
+
+/* End Prefixes */
